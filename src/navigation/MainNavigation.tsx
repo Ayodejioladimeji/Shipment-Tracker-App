@@ -8,7 +8,7 @@ import AuthStack from './AuthStack';
 type Props = {};
 
 const MainNavigation = (props: Props) => {
-  const [token, setToken] = useState(null);
+  const [token, setToken] = useState('adsfds');
 
   return !token ? <AuthStack /> : <MainStack />;
 };

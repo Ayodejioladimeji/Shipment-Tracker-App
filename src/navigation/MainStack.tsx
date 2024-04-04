@@ -12,7 +12,12 @@ type Props = {};
 
 const MainStack = (props: Props) => {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator
+      screenOptions={{
+        headerShown: false,
+        gestureDirection: 'horizontal',
+        animation: 'slide_from_right',
+      }}>
       <Stack.Screen name="BottomTab" component={BottomTabs} />
     </Stack.Navigator>
   );

@@ -47,9 +47,7 @@ const BottomTabs = () => {
   return (
     <Tab.Navigator
       screenOptions={{
-        headerStyle: {
-          height: 0,
-        },
+        headerShown: false,
         tabBarActiveTintColor: colors.primaryColor,
         tabBarInactiveTintColor: colors.lightColor,
         tabBarStyle: {
