@@ -106,6 +106,29 @@ export const ChevronIcon = (props: SvgProps) => (
   </Svg>
 );
 
+export const FilterIcon = (props: SvgProps) => (
+  <Svg width="31" height="30" viewBox="0 0 25 24" fill="none">
+    <Path
+      d="M6.71154 12H17.7885M4.25 7H20.25M10.4038 17H14.0962"
+      stroke="#000000"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </Svg>
+);
+
+export const ScanIcon = (props: SvgProps) => (
+  <Svg width="25" height="24" viewBox="0 0 25 24" fill="none">
+    <Path
+      d="M9.5499 2.3999H5.28324C4.10503 2.3999 3.1499 3.35503 3.1499 4.53324V8.7999M9.5499 21.5999H5.28324C4.10503 21.5999 3.1499 20.6448 3.1499 19.4666V15.1999M15.9499 2.3999H20.2166C21.3948 2.3999 22.3499 3.35503 22.3499 4.53324V8.7999M22.3499 15.1999V19.4666C22.3499 20.6448 21.3948 21.5999 20.2166 21.5999H15.9499M3.1499 12.0002H22.3499"
+      stroke="white"
+      stroke-width="1.5"
+      stroke-linecap="round"
+    />
+  </Svg>
+);
+
 export const BellIcon = (props: SvgProps) => (
   <Svg width="24" height="24" viewBox="0 0 24 24" fill="none">
     <Path
