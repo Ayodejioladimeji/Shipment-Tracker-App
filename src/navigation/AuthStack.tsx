@@ -10,14 +10,20 @@ const Stack = createNativeStackNavigator();
 
 type Props = {};
 
-const MainStack = (props: Props) => {
+const AuthStack = (props: Props) => {
   return (
-    <Stack.Navigator>
-      <Stack.Screen name="BottomTab" component={BottomTabs} />
+    <Stack.Navigator
+      screenOptions={{
+        headerShown: false,
+        gestureDirection: 'horizontal',
+        animation: 'slide_from_right',
+      }}>
+      <Stack.Screen name="Onboarding" component={OnboardingScreen} />
+      <Stack.Screen name="Login" component={LoginScreen} />
     </Stack.Navigator>
   );
 };
 
-export default MainStack;
+export default AuthStack;
 
 const styles = StyleSheet.create({});
