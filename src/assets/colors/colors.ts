@@ -3,4 +3,5 @@ export const colors = {
   lightColor: '#A7A3B3',
   blackColor: '#000000',
   whiteColor: '#ffffff',
+  sectionColor: '#F4F2F8',
 };
